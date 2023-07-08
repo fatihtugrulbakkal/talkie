@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1063319730737",
+    "project_id": "talkie-c18ad",
+    "storage_bucket": "talkie-c18ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063319730737:android:5d87054a733e9c66eb3310",
+        "android_client_info": {
+          "package_name": "axtr.talkie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063319730737-vuaocna5t3vi6gk7a1c6bkib5d3t490a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "axtr.talkie",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1063319730737-8uovv4j0fepi7n294e05afn15600u1o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxPLHbvairpW8_7SPv3uOvZQA-s0avGeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063319730737-8uovv4j0fepi7n294e05afn15600u1o6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1063319730737-tolet1rgreiscagjsph39iabih4gjrd8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "axtr.talkie"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
