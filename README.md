@@ -1,20 +1,49 @@
-# Talkie
+# Talkie - Kolay Kullanımlı Sohbet Uygulaması
 
-A new Flutter project.
+![Talkie Logo](talkie_logo.png)
 
-## Getting Started
+Talkie, basit ve kullanıcı dostu bir sohbet uygulamasıdır. Arkadaşlarınız ve ailenizle anlık olarak mesajlaşabilir, dosya paylaşımı yapabilir ve hatta grup sohbetleri oluşturabilirsiniz. Talkie ile iletişim kurmanın keyfini çıkarın!
 
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+## Özellikler
 
-### Getting started continued:
+- Anlık mesajlaşma: Arkadaşlarınızla ve ailenizle anlık olarak mesajlaşın.
+- Dosya paylaşımı: Fotoğraf, video, belge vb. gibi dosyaları kolayca paylaşın.
+- Grup sohbetleri: Farklı gruplar oluşturarak grup sohbetleri yapın.
+- Gelişmiş güvenlik: Verilerinizin güvenliği için end-to-end şifreleme kullanıyoruz.
+- Anında bildirimler: Gelen mesajları ve bildirimleri anında görün.
+- Çevrimiçi durumu: Arkadaşlarınızın hangi zamanlarda çevrimiçi olduğunu görün.
+- Kullanıcı dostu arayüz: Basit ve sezgisel kullanıcı arayüzü ile hızlı ve kolay bir şekilde uygulamayı kullanın.
 
-This project is a starting point for a Flutter application.
+## Kurulum
 
-A few resources to get you started if this is your first Flutter project:
+1. Bu depoyu klonlayın:
+git clone https://github.com/fatihtugrulbakkal/talkie.git
+2. Proje dizinine gidin:
+cd talkie
+3. Gerekli bağımlılıkları yükleyin:
+npm install
+4. Uygulamayı başlatın:
+npm start
+5. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresine gidin.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Katkıda Bulunma
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Katkıda bulunmaktan mutluluk duyarız! Eğer uygulamaya katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
+
+1. Bu depoyu forklayın.
+2. Kendi yerel klonunuzu oluşturun.
+3. Yaptığınız değişiklikleri yapmak için bir dal oluşturun.
+4. Değişikliklerinizi commit edin ve dalınıza push yapın.
+5. Bir pull isteği gönderin.
+
+## Lisans
+
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Daha fazla bilgi için lütfen LICENSE dosyasını inceleyin.
+
+## İletişim
+
+Eğer herhangi bir sorunuz veya öneriniz varsa, lütfen bize ulaşın.
+
+- E-posta: info@axtr.com.tr
+- Twitter: [@talkieapp](https://twitter.com/talkieapp)
+
