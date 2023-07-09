@@ -154,11 +154,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
             userPhoto: params.getParam(
                 'userPhoto', ParamType.DocumentReference, false, ['users']),
           ),
-        ),
-        FFRoute(
-          name: 'deleteAccount',
-          path: '/deleteAccount',
-          builder: (context, params) => DeleteAccountWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

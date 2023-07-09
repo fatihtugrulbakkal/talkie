@@ -70,8 +70,6 @@ class _MyProfileWidgetState extends State<MyProfileWidget>
           !anim.applyInitialState),
       this,
     );
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

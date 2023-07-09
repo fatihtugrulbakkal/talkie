@@ -26,8 +26,6 @@ class _ChatMainWidgetState extends State<ChatMainWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => ChatMainModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

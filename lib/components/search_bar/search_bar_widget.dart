@@ -29,7 +29,6 @@ class _SearchBarWidgetState extends State<SearchBarWidget> {
     _model = createModel(context, () => SearchBarModel());
 
     _model.textController ??= TextEditingController();
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

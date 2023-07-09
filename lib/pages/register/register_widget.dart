@@ -30,7 +30,6 @@ class _RegisterWidgetState extends State<RegisterWidget> {
     _model.emailAddressController ??= TextEditingController();
     _model.passwordController ??= TextEditingController();
     _model.confirmPasswordController ??= TextEditingController();
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
@@ -339,12 +338,6 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                     if (user == null) {
                       return;
                     }
-
-                    await UsersRecord.collection
-                        .doc(user.uid)
-                        .update(createUsersRecordData(
-                          isGuest: false,
-                        ));
 
                     context.goNamedAuth('completeProfile', context.mounted);
                   },

@@ -26,8 +26,6 @@ class _MyFriendsWidgetState extends State<MyFriendsWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => MyFriendsModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

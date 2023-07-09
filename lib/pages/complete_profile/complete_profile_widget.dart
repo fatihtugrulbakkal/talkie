@@ -32,7 +32,6 @@ class _CompleteProfileWidgetState extends State<CompleteProfileWidget> {
     _model.imageURLController ??= TextEditingController();
     _model.displayNameController ??= TextEditingController();
     _model.yourTitleController ??= TextEditingController();
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override

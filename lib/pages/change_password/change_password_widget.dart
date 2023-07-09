@@ -26,7 +26,6 @@ class _ChangePasswordWidgetState extends State<ChangePasswordWidget> {
     _model = createModel(context, () => ChangePasswordModel());
 
     _model.emailAddressController ??= TextEditingController();
-    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
